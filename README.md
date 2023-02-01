@@ -2,7 +2,7 @@
 
 # <h1 align=center>**`EDA-POWER BI`**</h1>  
 
-Este proyecto hace énfasis en la resolución de un problema en el campo de Data-Analytics. Para ello se hará uso de técnicas para análisis exploratorio de datos (EDA) en Python y métodos de visualización (Dashboards) en Power BI. Adicional a ello, se hace la formulación de (KPIs) que permitan analizar y sacar conclusiones de los datos recolectados. La información recolectada pretende dar información sobre el mercado de los cursos online.
+Este proyecto hace énfasis en la resolución de un problema en el campo de Data-Analytics, más especificamente en un análisis de mercado de los denóminados MOOCs (Cursos en línea masivos y abiertos). Para ello se pone a disposición una serie de datasets que brinda información sobre la situación de mercado de los cursos online. Se hará uso de técnicas para análisis exploratorio de datos (EDA) en Python y métodos de visualización (Dashboards) en Power BI. Adicional a ello, se hace la formulación de (KPIs) que permitan analizar y sacar conclusiones de los datos recolectados. 
 
 # <h2> **Objetivos**</h1>
 - Realizar labores de Análisis Exploratorio de Datos (EDA)
@@ -15,7 +15,7 @@ Este proyecto hace énfasis en la resolución de un problema en el campo de Data
 - Eliminación de duplicados
 - Eliminación de datos atipicos
 - Imputación de valores Nulos
-- Generación de Nubes de Palabras         (Word-Cloud)
+- Generación de Nubes de Palabras (Word-Cloud)
 - Generar archivos de formato (csv) para su posterior uso en POWER BI
     
 2. Las tareas en la generación de métricas y KPIs para el análisis de datos, se pueden resumir en:
@@ -28,15 +28,15 @@ Este proyecto hace énfasis en la resolución de un problema en el campo de Data
 ## **Archivos del repositorio**
 - **`Scripts`**: (EDA.ipynb) Se generó un archivo de análisis Exploratorio por cada Dataset por separado (EDA_udemy, EDA_edx, EDA_cour, EDA_cour_rev). Los últimos son los datos correspondientes a coursera y coursera reviews. Además hay un script llamado join_coursera que unifica los archivos csv para la plataforma coursera y que fueron producto del análisis exploratorio 
 
-- **`Nubes de Palabras`**: (./.png/) Archivo tipo .png que contienen nubes de palabras.
+- **`Nubes de Palabras`**: (./.png/) Archivo tipo .png que contienen las nubes de palabras para diferentes campos de texto de interés.
 
 - **`.CSV`**: (./.csv/) Archivos tipo CSV que serán usados para su análisis en POWER BI. Los archvos .csv se encuentran en el siguiente link
 https://drive.google.com/drive/folders/16tQO2x5NkRwdz3DhWoq2l3-Gz-MeAQhS
 
-- **`Dashboards`**: (/.pbix) Archivo con el contenido del Dashboard
+- **`Dashboards`**: (/.pbix) Archivo con el contenido del Dashboard o visualizaciones para el análisis de datos
 
 ## `1.EDA (Análisis Exploratorio de Datos)`
-Con el archivo EDA.py se realizaron las tareas de EDA de datos. Haciendo uso de pandas se realizaron las tareas de necesaarias: 
+Con el archivo EDA.py se realizaron las tareas de análisis exploratorio de datos. Haciendo uso de pandas se realizaron las tareas de necesarias: 
 
 + Eliminación de valores duplicados: Se eliminaron valores duplicados en cada uno de los datasets
 
@@ -82,6 +82,7 @@ wordcloud.to_file("./img_coursera.png")
 Usando los datos disponibles se formularon KPIs como (**`ventas totales anuales`**) y el (**`engage index/índice de participación`**). Adicionalmente se usaron métricas para analizar el comportamiento del mercado de los cursos on-line como por ejemplo (**`nro subscriptores/nro cursos/nro reviews`**)
 
 ## `3.Realización de Dashboard`
-El Dashboard y las visualizaciones para aálisis de Datos se encuentran en el siguiente enlace
+El Dashboard y las visualizaciones para análisis de Datos se encuentran en el siguiente enlace
 
 -  https://drive.google.com/file/d/1YID7QPIFdjmprdy5YekX3VIiLjqbS5ss/view?usp=share_link
+
