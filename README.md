@@ -37,25 +37,25 @@ https://drive.google.com/drive/folders/16tQO2x5NkRwdz3DhWoq2l3-Gz-MeAQhS
 - **`Dashboards`**: (/.pbix) Archivo con el contenido del Dashboard o visualizaciones para el análisis de datos
 
 ## `1.EDA (Análisis Exploratorio de Datos)`
-Con el archivo EDA.py se realizaron las tareas de análisis exploratorio de datos. Haciendo uso de pandas se realizaron las tareas de necesarias: 
+Con el archivo EDA.py se realizaron las tareas de análisis exploratorio de datos. Haciendo uso de pandas se realizaron las siguientes tareas: 
 
-+ Eliminación de valores duplicados: Se eliminaron valores duplicados en cada uno de los datasets
++ Eliminación de valores duplicados: Se eliminaron valores duplicados en cada uno de los conjuntos de datos
 
-+ Limpieza de datos: normalización de columnas tipo texto (uso de minúsculas y eliminación de carácteres especiales)
++ Limpieza de datos: normalización de columnas tipo texto (uso de minúsculas y eliminación de caracteres especiales)
 
-+ Normalización de los campos fecha en los diferentes dataset, dejandolos de la forma year-month-day
++ Normalización de los campos fecha en los diferentes dataset, dejándolos de la forma year-day-month
 
-+ Imputación de nulos para el dataset (**`edx`**) en el campo (**`nr_enrolled`**), usando para ello los valores máximos (75%) por (**`subject`**)
++ Imputación de nulos para el conjunto de datos (**`edx`**) en el campo (**`nr_enrolled`**), usando para ello los valores máximos (75%) por (**`subject`**)
 
 + Para los campos de precio se hace una division en 3 categorias (I**`low-medium-high`**) garantizando un numero equitativo de observaciones por cada categoria
 
-+ Para el para el dataset (**`edx`**) campo (**`language`**), se decide agrupar los idiomas con observaciones no representativas dentro de una nueva categoria (**`other`**)
++ Para el para el conjunto de datos (**`edx`**) campo (**`language`**), se decide agrupar los idiomas con observaciones no representativas dentro de una nueva categoria (**`other`**)
 
-+ Imputación de nulos para el dataset (**`udemy`**) en el campo (**`subscribers`**), usando para ello los valores máximos (75%) por (**`subject`**)
++ Imputación de nulos para el conjunto de datos (**`udemy`**) en el campo (**`subscribers`**), usando para ello los valores máximos (75%) por (**`subject`**)
 
-+ Para el dataset (**`udemy`**) se genera un nuevo campo ventas (**`ventas`**), y un nuevo KPI (**`engage_index`**)
++ Para el conjunto de datos (**`udemy`**) se genera un nuevo campo ventas (**`ventas`**), y un nuevo KPI (**`engage_index`**)
 
-+ Para los campos de texto en cada uno de los dataset como por ejemplo (**`course_id,reviews,name ó title`**) se genera una nube de palabras usando el siguiente código:
++ Para los campos de texto (course_id,reviews,name ó title)  en cada uno de los conjuntos de datos se genera una nube de palabras usando el siguiente código:
 
 ```
 text = " ".join(course_id for course_id in df_cour_co.course_id)
