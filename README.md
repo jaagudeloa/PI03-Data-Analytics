@@ -11,19 +11,18 @@ Este proyecto hace énfasis en la resolución de un problema en el campo de Data
 
 ## **Tareas a Ejecutar**
 
-1.Las Tareas de Análisis Exploratorio de datos en este proyecto se pueden resumir en: 
-- Eliminación de duplicados
-- Eliminación de datos atipicos
-- Imputación de valores Nulos
-- Generación de Nubes de Palabras (Word-Cloud)
-- Generar archivos de formato (csv) para su posterior uso en POWER BI
-    
-2. Las tareas en la generación de métricas y KPIs para el análisis de datos, se pueden resumir en:
-- Selección de tipo de visualizaciones para los Datos
-- Selección de métricas y KPIs que ayuden al analisis de Datos y den respuesta al problema de negocio 
+1.Las Tareas de Análisis Exploratorio de datos en este proyecto se pueden resumir en:
+•	Eliminación de duplicados
+•	Eliminación de datos atípicos
+•	Imputación de valores Nulos
+•	Generación de Nubes de Palabras (Word-Cloud)
+•	Generar archivos de formato (csv) para su posterior uso en POWER BI
+2.Las tareas en la generación de métricas y KPIs para el análisis de datos, se pueden resumir en:
+•	Selección de tipo de visualizaciones para los Datos
+•	Selección de métricas y KPIs que ayuden al análisis de Datos y den respuesta al problema de negocio
+3.Formulación de un ,,Storytelling"
+•	Contextualización del problema y creación de historia alrededor del mismo
 
-3. Formulación de un ,,Storytelling"
-- Contextualización del problema y creación de historia alrededor del mismo
 
 ## **Archivos del repositorio**
 - **`Scripts`**: (EDA.ipynb) Se generó un archivo de análisis Exploratorio por cada Dataset por separado (EDA_udemy, EDA_edx, EDA_cour, EDA_cour_rev). Los últimos son los datos correspondientes a coursera y coursera reviews. Además hay un script llamado join_coursera que unifica los archivos csv para la plataforma coursera y que fueron producto del análisis exploratorio 
