@@ -2,7 +2,7 @@
 
 # <h1 align=center>**`EDA-POWER BI`**</h1>  
 
-Este proyecto hace énfasis en la resolución de un problema en el campo de Data-Analytics, más especificamente en un análisis de mercado de los denóminados MOOCs (Cursos en línea masivos y abiertos). Para ello se pone a disposición una serie de datasets que brinda información sobre la situación de mercado de los cursos online. Se hará uso de técnicas para análisis exploratorio de datos (EDA) en Python y métodos de visualización (Dashboards) en Power BI. Adicional a ello, se hace la formulación de (KPIs) que permitan analizar y sacar conclusiones de los datos recolectados. 
+Este proyecto hace énfasis en la resolución de un problema en el campo de Data-Analytics, más específicamente en un análisis de mercado de los denominados MOOCs (Cursos en línea masivos y abiertos). Para ello se pone a disposición una serie de conjuntos de datos que brinda información sobre la situación de mercado de los cursos online. Se hará uso de técnicas para análisis exploratorio de datos (EDA) en Python y métodos de visualización (Dashboards) en Power BI. Adicional a ello, se hace la formulación de (KPIs) que permitan analizar y sacar conclusiones de los datos recolectados.
 
 # <h2> **Objetivos**</h1>
 - Realizar labores de Análisis Exploratorio de Datos (EDA)
