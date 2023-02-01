@@ -83,7 +83,7 @@ wordcloud.to_file("./img_coursera.png")
 Usando los datos disponibles se formularon KPIs como (**`ventas totales anuales`**) y el (**`engage index/índice de participación`**). Adicionalmente se usaron métricas para analizar el comportamiento del mercado de los cursos on-line como por ejemplo (**`nro subscriptores/nro cursos/nro reviews`**)
 
 ## `3.Realización de Dashboard`
-El Dashboard y las visualizaciones para análisis de Datos se encuentran en el siguiente enlace
+El Dashboard y las visualizaciones para análisis de datos se encuentran en el siguiente enlace
 
 -  https://drive.google.com/file/d/1YID7QPIFdjmprdy5YekX3VIiLjqbS5ss/view?usp=share_link
 
