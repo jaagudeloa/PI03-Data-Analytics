@@ -27,7 +27,7 @@ Este proyecto hace énfasis en la resolución de un problema en el campo de Data
 
 
 ## **Archivos del repositorio**
-- **`Scripts`**: (EDA.ipynb) Se generó un archivo de análisis Exploratorio por cada Dataset por separado (EDA_udemy, EDA_edx, EDA_cour, EDA_cour_rev). Los últimos son los datos correspondientes a coursera y coursera reviews. Además hay un script llamado join_coursera que unifica los archivos csv para la plataforma coursera y que fueron producto del análisis exploratorio 
+- **`Scripts`**: (EDA.ipynb) Se generó un archivo de análisis Exploratorio por cada conjunto de datos por separado (EDA_udemy, EDA_edx, EDA_cour, EDA_cour_rev). Los últimos son los datos correspondientes a coursera y coursera reviews. Además, hay un script llamado join_coursera que unifica los archivos csv para la plataforma coursera y que fueron producto del análisis exploratorio 
 
 - **`Nubes de Palabras`**: (./.png/) Archivo tipo .png que contienen las nubes de palabras para diferentes campos de texto de interés.
 
