@@ -17,9 +17,11 @@ Este proyecto hace énfasis en la resolución de un problema en el campo de Data
 - Imputación de valores Nulos
 - Generación de Nubes de Palabras (Word-Cloud)
 - Generar archivos de formato (csv) para su posterior uso en POWER BI
+  
 2.Las tareas en la generación de métricas y KPIs para el análisis de datos, se pueden resumir en:
 - Selección de tipo de visualizaciones para los Datos
 - Selección de métricas y KPIs que ayuden al análisis de Datos y den respuesta al problema de negocio
+  
 3.Formulación de un ,,Storytelling"
 - Contextualización del problema y creación de historia alrededor del mismo
 
