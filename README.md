@@ -85,5 +85,5 @@ Usando los datos disponibles se formularon KPIs como (**`ventas totales anuales`
 ## `3.Realización de Dashboard`
 El Dashboard y las visualizaciones para análisis de datos se encuentran en el siguiente enlace
 
--  https://drive.google.com/file/d/1YID7QPIFdjmprdy5YekX3VIiLjqbS5ss/view?usp=share_link
+-  https://drive.google.com/file/d/1hkFacZ7dUEJGtO10OJuJwEO8gdGvnDq6/view?usp=share_link
 
